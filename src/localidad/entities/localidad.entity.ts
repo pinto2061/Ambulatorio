@@ -13,3 +13,6 @@ export class Localidad extends BaseEntity {
   @OneToMany(() => Persona, (persona) => persona.localidad)
   persona: Persona;
 }
+/**
+ *prueba
+ */
